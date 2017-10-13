@@ -1,3 +1,11 @@
+* {
+  color: #d0dba4;
+}
+
+.amtext {
+  color: #acc643;
+}
+
 .nav {
   position:absolute;
   bottom:0;
@@ -11,7 +19,7 @@
 .image-me {
   max-width: 15%;
   float: right;
-  border-radius: 10px
+  border-radius: 10px;
 }
 
 .cardwide {
@@ -31,4 +39,8 @@
 
 .card-grp {
   display: flex;
+}
+
+.exciting {
+  color: #f99ae0;
 }
