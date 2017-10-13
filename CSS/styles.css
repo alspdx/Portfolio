@@ -28,6 +28,11 @@ p {
   font-family: 'Varela Round', sans-serif;
 }
 
+.card p span {
+  font-style: italic;
+  background-color: #61b789;
+}
+
 .amtext {
   color: #acc643;
   margin-top: 20px;
