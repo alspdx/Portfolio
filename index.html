@@ -5,39 +5,29 @@
     <title>Adam Smith</title>
     <link href="CSS/bootstrap.css"  rel="stylesheet"  type="text/css">
     <link href="CSS/styles.css" rel ="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded|Quicksand|Varela+Round" rel="stylesheet">
   </head>
   <body class="bg-dark">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row"><!-- header -->
-        <div class="col-md-6">
+        <div class="col-md-6"><!--Page title-->
           <h1 class="display-6 text-info">
             Adam Smith
             <small class="text-muted">Web Developer</small>
           </h1>
         </div>
-        <div class="col-md-6"><!-- nav bar -->
-          <div class="d-flex align-items-end">
-            <ul class="nav justify-content-end">
-              <li class="nav-item">
-                <a class="nav-link active text-info" href="#">Web Development</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-info" href="#">Photography</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-info" href="#">Music</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-info" href="#">Personal Life</a>
-              </li>
-            </ul>
+        <div class="col-md-6"><!--Email button-->
+          <div class="d-flex float-right">
+            <a href="mailto:alspdx@gmail.com">
+              <button type="button" class="btn btn-info">Contact</button>
+            </a>
           </div>
         </div>
       </div>
       <div class="row"><!-- main body -->
         <div class="col-md-2 about-me"><!--About Me-->
-          <img src="images/adam.jpg" class="img-fluid b-radius" alt="Adam Smith">
-          <h3 class="amtext">About Me<hr></h3>
+          <img src="images/adam.jpg" class="img-fluid imgme" alt="Adam Smith">
+          <h3 class="amtext">About Me</h3><hr>
           <p>Hi, I'm <span class="exciting">Adam Smith</span>, an aspiring <span class="exciting">web developer</span> in <span class="exciting">Portland, Oregon</span>. After becoming interested in <span class="exciting">programming</span> and learning some basic <span class="exciting">HTML</span> and <span class="exciting">CSS</span> through online tutorials I enrolled in a <span class="exciting">web developing program</span> at <span class="exciting">Epicodus</span> to learn more of the basics as well as <span class="exciting">JavaScript</span> and <span class="exciting">React</span>.
           </p>
         </div>
@@ -110,16 +100,16 @@
             </div>
           </div>
           <div class="row"><!--Interests and Hobbies-->
-            <div class="card cardcolor border-info" style="width:100%">
+            <div class="card cardcolor border-info inthob" style="width:100%">
               <div class="card-body">
                 <div>
                   <h3>Interests and Hobbies</h3>
-                  <ol>
+                  <ul>
                     <li>Photography</li>
                     <li>Guitar</li>
                     <li>Cats</li>
                     <li>Food</li>
-                  </ol>
+                  </ul>
                 </div>
               </div>
             </div>
