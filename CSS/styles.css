@@ -28,3 +28,7 @@
   background-color: #68747d;
   border: 6px solid ##25a2b6;
 }
+
+.card-grp {
+  display: flex;
+}

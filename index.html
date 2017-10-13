@@ -7,10 +7,10 @@
     <link href="CSS/styles.css" rel ="stylesheet" type="text/css">
   </head>
   <body class="bg-dark">
-    <div class="container-responsive">
+    <div class="container">
       <div class="row"><!-- header -->
         <div class="col-md-6">
-          <h1 class="display-4 text-info">
+          <h1 class="display-6 text-info">
             Adam Smith
             <small class="text-muted">Web Developer</small>
           </h1>
@@ -35,39 +35,63 @@
         </div>
       </div>
       <div class="row"><!-- main body -->
-        <div class="col-md-2 about-me">
+        <div class="col-md-2 about-me"><!--About Me-->
           <img src="images/adam.jpg" class="img-fluid b-radius" alt="Adam Smith">
           <h3 class="text-light">About Me</h3>
           <p class="text-light">Hi, I'm Adam Smith, an aspiring web developer in Portland, Oregon. After becoming interested in programming and learning some basic HTML and CSS through online tutorials I enrolled in a web developing program at Epicodus to learn more of the basics as well as JavaScript and React.</p>
         </div>
-        <div class="col-md-10">
+        <div class="col-md-10"><!--Big Column-->
           <div class="row"><!--Projects-->
             <div class="card projects cardcolor border-info">
               <div class="card-body">
-                <h3>Projects</h3>
-                <dl>
-                  <dt><a href="https://alspdx.github.io/vacation2/" target="_blank" class="text-warning">Glenorchy</a></dt>
-                  <dd>  - This is a vacation destination website for Glenorchy, New Zealand built using <strong>HTML</strong>, <strong>CSS</strong>, and <strong>Bootstrap</strong> offering travel packages and comments from previous visitors.</dd>
-                  <dt><a href="https://alspdx.github.io/cupcakeshop/" target="_blank" class="text-warning">Cupcake Shop</a></dt>
-                  <dd>  - This is a simple bakery website showing knowledge of styling with classes using <strong>HTML</strong> and <strong>CSS</strong>.</dd>
-                  <dt><a href="https://alspdx.github.io/bobloblawslawblog/" target="_blank" class="text-warning">Bob Loblaw's Law Blog</a></dt>
-                  <dd>  - Here we have a blogging web page demonstrating styling with classes using <strong>HTML</strong> and <strong>CSS</strong>.</dd>
-                  <dt><a href="https://alspdx.github.io/animalshelter/" target="_blank" class="text-warning">Fido Farm Puppy Factory</a></dt>
-                  <dd>  - What you'll see here is a website for a puppy mill built with <strong>HTML</strong> and <strong>CSS</strong> that shows working use of float and columns. </dd>
-                </dl>
-              </div>
-            </div>
-          </div>
-          <div class="row"><!--Interests and Hobbies-->
-            <div class="card cardcolor border-info">
-              <div class="card-body">
-                <h3>Interests and Hobbies</h3>
-                <ol>
-                  <li>Photography</li>
-                  <li>Guitar</li>
-                  <li>Cats</li>
-                  <li>Food</li>
-                </ol>
+                <h3 class="card-title">Projects</h3>
+                <div class="card-group card-grp">
+                  <div class="card ">
+                    <div class="card-block">
+                      <img class="card-img-top" src=" images/glenorchy.jpg" alt="Glenorchy">
+                      <h4 class="card-title">
+                        <a href="https://alspdx.github.io/vacation2/" target="_blank" class="text-info">
+                          Glenorchy
+                        </a>
+                      </h4>
+                      <p class="card-text">This is a vacation destination website for Glenorchy, New Zealand offering travel packages and comments from previous visitors. This page was built using:</p>
+                      <ol>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Bootstrap</li>
+                      </ol>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-block">
+                      <img class="card-img-top" src="images/cupcakes.jpg" alt="Sugarbaby's Cupcakes">
+                      <h4 class="card-title">
+                        <a href="https://alspdx.github.io/cupcakeshop/" target="_blank" class="text-info">
+                          Sugarbaby's Cupcakes
+                        </a>
+                      </h4>
+                      <p class="card-text">A simple bakery website showing knowledge of styling with classes, built with:
+                      <ol>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                      </ol>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-block">
+                      <img class="card-img-top" src="images/lawblog.jpg" alt="Bob Loblaw's Law Blog">
+                      <h4 class="card-title">
+                        <a href="https://alspdx.github.io/bobloblawslawblog/" target="_blank" class="text-info">Bob Loblaw's Law Blog
+                        </a>
+                      </h4>
+                      <p class="card-text">Here we have a blogging web page demonstrating styling with classes built with:</p>
+                      <ol>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -82,6 +106,19 @@
                   <li class="list-group-item"><strong>Pizza Cook</strong>, <em>2001-2003</em></li>
                 </div>
               </ul>
+            </div>
+          </div>
+          <div class="row"><!--Interests and Hobbies-->
+            <div class="card cardcolor border-info">
+              <div class="card-body">
+                <h3>Interests and Hobbies</h3>
+                <ol>
+                  <li>Photography</li>
+                  <li>Guitar</li>
+                  <li>Cats</li>
+                  <li>Food</li>
+                </ol>
+              </div>
             </div>
           </div>
         </div>
