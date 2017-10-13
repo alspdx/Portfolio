@@ -24,7 +24,7 @@ This website thoroughly demonstrates the concepts learned during the first week 
 
 ## Legal
 
-Copyright (c) 2017 Adam Smith
+Copyright (c) 2017 **Adam Smith**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
