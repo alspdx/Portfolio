@@ -10,6 +10,8 @@ This website thoroughly demonstrates the concepts learned during the first week 
 
 ## Setup
 
+[Click here](alspdx.githib.io/Portfolio) to view this site on GitHub Pages or follow the instructions below. 
+
 * Download this GitHub repository.
 
 * Open 'index.html'.
